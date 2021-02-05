@@ -4,7 +4,9 @@ const ENV_PORT = envs['ENV_PORT'] || 4040;
 const app = express();
 
 app.use(express.json());
-
+app.get('/', (req, res) => {
+    res.send('Hello world!');
+});
 app.listen(ENV_PORT, () => {
     console.log(`Listening at --> ${ENV_PORT}`);
 });
