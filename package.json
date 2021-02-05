@@ -6,6 +6,7 @@
   "author": "Marcial Jimenez Caballero <marcial.jimenez.caballero@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1"
   }
 }
