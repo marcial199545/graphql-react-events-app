@@ -1,0 +1,11 @@
+{
+  "name": "graphql-react-event-booking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marcial199545/graphql-react-events-app.git",
+  "author": "Marcial Jimenez Caballero <marcial.jimenez.caballero@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
